@@ -1,0 +1,100 @@
+:root {
+  font-size: 62.5%;
+
+  --primary-color: #0080ff;
+  --primary-color-variant: #4da6ff;
+  --secondary-color: #ffb116;
+  --gray-color-100: #e9e9f7;
+  --gray-color-200: #afafd0;
+  --gray-color-300: #8c8cba;
+  --gray-color-400: #585879;
+  --gray-color-500: #24245c;
+  --gray-color-600: #141439;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+}
+
+*, *::before, *::after {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-color-200);
+  background-color: var(--gray-color-600);
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 192rem;
+  margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+  color: var(--gray-color-100);
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+a {
+  color: var(--gray-color-100);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%
+}
+
+
+
+
+
+.btn {
+  color: var(--gray-color-100);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1.5rem 3.2rem;
+  background-color: var(--primary-color);
+  border-radius: 3.2rem;
+  transition: var(--transition)
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--gray-color-600);
+}
+
+.btn.lg {
+  padding: 1.92rem 4.8rem;
+  border-radius: 3.2rem;
+  font-size: 17.6;
+}
+
+.btn.sm {
+  padding: 0.64rem 1.92rem;
+  font-size: 1.44rem;
+}
+
+.btn.sm:hover {
+  background-color: var(--gray-color-100);
+}
