@@ -98,3 +98,9 @@ img {
 .btn.sm:hover {
   background-color: var(--gray-color-100);
 }
+
+
+section {
+  margin-top: 16rem;
+}
+

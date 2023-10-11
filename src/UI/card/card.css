@@ -1,0 +1,39 @@
+.card {
+  background-color: var(--gray-color-400);
+  border: .2rem solid transparent;
+  text-align: center;
+  padding: 4.8rem 3.2rem;
+  border-radius: 0rem 4.8rem 0rem 4.8rem;
+  transition: var(--transition);
+}
+
+.card:hover {
+  background-color: transparent;
+  border-color: var(--gray-color-400);
+}
+
+.card span {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: var(--primary-color);
+  color: var(--gray-color-100);
+  display: grid;
+  place-items: center;
+  font-size: 2.4rem;
+  padding: 1.28rem;
+  margin-bottom: 2.4rem;
+  margin-inline: auto;
+  border-radius: 1.6rem;
+  transition: var(--transition);
+}
+
+.card:hover span {
+  background-color: var(--secondary-color);
+  color: var(--gray-color-600);
+} 
+
+.card small {
+  margin-top: 1.6rem;
+  display: block;
+  font-weight: 300;
+}

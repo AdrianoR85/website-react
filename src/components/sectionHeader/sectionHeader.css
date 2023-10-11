@@ -1,0 +1,13 @@
+.section__header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.section__header span {
+  background-color: var(--gray-color-500);
+  padding: 0 1.28rem;
+  border-radius: 1.6rem;
+  color: var(--secondary-color);
+  font-size: 2.4rem;
+}
