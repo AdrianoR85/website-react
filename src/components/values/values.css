@@ -1,0 +1,38 @@
+.values__container {
+  display: grid;
+  grid-template-columns: 38% 50%;
+  gap: 12%;
+}
+
+.values__image {
+  filter: saturate(.25);
+  transition: var(--transition);
+  height: 90%;
+}
+.values__image img {
+  height: 100%;
+}
+.values__image:hover {
+  filter: saturate(1);
+}
+
+.values__right > p{
+  margin: 2.4rem 0 8rem;
+}
+
+.values__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr );
+  gap: 5.44rem 3.84rem;
+}
+
+.card.values__value {
+  padding-top: 5.6rem;
+  text-align: left;
+  position: relative;
+}
+
+.card.values__value span{
+  position: absolute;
+  top: -2.4rem;
+}
